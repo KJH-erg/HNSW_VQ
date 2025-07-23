@@ -1,0 +1,392 @@
+Running /home/kjh/data/dataset sift 128
+File /home/kjh/data/dataset/128/sift_base.fbin loaded
+Rows 1000000 Cols 128
+Original HNSW loaded
+Original0
+New5.73333
+Original16
+New14.8
+Original35
+New37.8
+Original5
+New5.26667
+Original32
+New27
+Original31
+New28.1667
+Original14
+New18.8
+Original10
+New5.26667
+Original11
+New6.9
+Original78
+New81.4667
+Original55
+New52.8
+Original10
+New5.26667
+Original45
+New48.6
+Original83
+New83
+Original11
+New6.26667
+Original6
+New6.43333
+Original14
+New7.26667
+Original57
+New61.2333
+Original102
+New99.7333
+Original75
+New73.2333
+Original20
+New17.1
+Original8
+New5.4
+Original3
+New5.53333
+Original5
+New6.6
+Original67
+New67.8333
+Original17
+New15.9
+Original19
+New17.6
+Original26
+New26.6667
+Original5
+New5.43333
+Original0
+New5.4
+Original1
+New5.36667
+Original22
+New27.3333
+Original60
+New54.6
+Original26
+New27.1667
+Original7
+New5.33333
+Original1
+New5.36667
+Original18
+New16.7
+Original22
+New18.9
+Original84
+New90
+Original53
+New50.7
+Original85
+New89.7
+Original119
+New116.9
+Original119
+New124.6
+Original4
+New5.26667
+Original24
+New27.5
+Original18
+New16.3
+Original7
+New6
+Original7
+New5.76667
+Original1
+New7.26667
+Original81
+New86.5
+Original106
+New100.867
+Original102
+New103.233
+Original72
+New74.5333
+Original30
+New27.1667
+Original6
+New5.76667
+Original0
+New6.43333
+Original9
+New6.16667
+Original1
+New5.36667
+Original9
+New5.93333
+Original119
+New118.3
+Original72
+New74.5333
+Original1
+New5.8
+Original4
+New5.53333
+Original33
+New37.1
+Original119
+New124.6
+Original29
+New26.5
+Original6
+New6.16667
+Original1
+New5.4
+Original0
+New5.53333
+Original1
+New5.56667
+Original14
+New16.9
+Original52
+New50.4
+Original119
+New117.3
+Original30
+New28
+Original3
+New6.16667
+Original0
+New5.43333
+Original0
+New5.53333
+Original55
+New58.3
+Original92
+New96.9
+Original111
+New111.467
+Original2
+New7.26667
+Original5
+New5.6
+Original4
+New6.16667
+Original9
+New5.36667
+Original22
+New17.1
+Original89
+New83.5
+Original96
+New96.9
+Original14
+New18.8
+Original1
+New6.06667
+Original0
+New5.2
+Original1
+New5.66667
+Original82
+New82
+Original59
+New63.0667
+Original16
+New17.9
+Original20
+New17.9
+Original5
+New5.53333
+Original25
+New29.6667
+Original14
+New15.7
+Original11
+New5.86667
+Original4
+New5.8
+Original0
+New5.53333
+Original0
+New5.1
+Original1
+New5.16667
+Original26
+New27.3333
+Original47
+New48.3
+Original23
+New18.4
+Original4
+New5.86667
+Original0
+New5.23333
+Original0
+New5.5
+Original4
+New5.3
+Original38
+New39.6667
+Original83
+New88.4
+Original30
+New36.3333
+Original14
+New18.4
+Original9
+New5.86667
+Original4
+New5.3
+Original9
+New5.66667
+Original17
+New18.7
+Original23
+New18.1
+Original41
+New44.5667
+Original0
+New6.23333
+Original0
+New5.06667
+Original2
+New5.36667
+Original8
+New5
+Original19
+New16.5
+Original25
+New28.5
+Original23
+New17.3
+Original1
+New5.36667
+tmp:35
+-----
+ORI[0]: 0
+ORI[1]: 16
+ORI[2]: 35
+ORI[3]: 5
+ORI[4]: 32
+ORI[5]: 31
+ORI[6]: 14
+ORI[7]: 10
+ORI[8]: 11
+ORI[9]: 78
+ORI[10]: 55
+ORI[11]: 10
+ORI[12]: 45
+ORI[13]: 83
+ORI[14]: 11
+ORI[15]: 6
+ORI[16]: 14
+ORI[17]: 57
+ORI[18]: 102
+ORI[19]: 75
+ORI[20]: 20
+ORI[21]: 8
+ORI[22]: 3
+ORI[23]: 5
+ORI[24]: 67
+ORI[25]: 17
+ORI[26]: 19
+ORI[27]: 26
+ORI[28]: 5
+ORI[29]: 0
+ORI[30]: 1
+ORI[31]: 22
+ORI[32]: 60
+ORI[33]: 26
+ORI[34]: 7
+ORI[35]: 1
+ORI[36]: 18
+ORI[37]: 22
+ORI[38]: 84
+ORI[39]: 53
+ORI[40]: 85
+ORI[41]: 119
+ORI[42]: 119
+ORI[43]: 4
+ORI[44]: 24
+ORI[45]: 18
+ORI[46]: 7
+ORI[47]: 7
+ORI[48]: 1
+ORI[49]: 81
+ORI[50]: 106
+ORI[51]: 102
+ORI[52]: 72
+ORI[53]: 30
+ORI[54]: 6
+ORI[55]: 0
+ORI[56]: 9
+ORI[57]: 1
+ORI[58]: 9
+ORI[59]: 119
+ORI[60]: 72
+ORI[61]: 1
+ORI[62]: 4
+ORI[63]: 33
+ORI[64]: 119
+ORI[65]: 29
+ORI[66]: 6
+ORI[67]: 1
+ORI[68]: 0
+ORI[69]: 1
+ORI[70]: 14
+ORI[71]: 52
+ORI[72]: 119
+ORI[73]: 30
+ORI[74]: 3
+ORI[75]: 0
+ORI[76]: 0
+ORI[77]: 55
+ORI[78]: 92
+ORI[79]: 111
+ORI[80]: 2
+ORI[81]: 5
+ORI[82]: 4
+ORI[83]: 9
+ORI[84]: 22
+ORI[85]: 89
+ORI[86]: 96
+ORI[87]: 14
+ORI[88]: 1
+ORI[89]: 0
+ORI[90]: 1
+ORI[91]: 82
+ORI[92]: 59
+ORI[93]: 16
+ORI[94]: 20
+ORI[95]: 5
+ORI[96]: 25
+ORI[97]: 14
+ORI[98]: 11
+ORI[99]: 4
+ORI[100]: 0
+ORI[101]: 0
+ORI[102]: 1
+ORI[103]: 26
+ORI[104]: 47
+ORI[105]: 23
+ORI[106]: 4
+ORI[107]: 0
+ORI[108]: 0
+ORI[109]: 4
+ORI[110]: 38
+ORI[111]: 83
+ORI[112]: 30
+ORI[113]: 14
+ORI[114]: 9
+ORI[115]: 4
+ORI[116]: 9
+ORI[117]: 17
+ORI[118]: 23
+ORI[119]: 41
+ORI[120]: 0
+ORI[121]: 0
+ORI[122]: 2
+ORI[123]: 8
+ORI[124]: 19
+ORI[125]: 25
+ORI[126]: 23
+ORI[127]: 1
+index.cur_element_count = N;1000000
+##########

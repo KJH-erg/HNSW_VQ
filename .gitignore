@@ -1,0 +1,17 @@
+data/
+FLOAT/bin
+FLOAT/build
+indices/
+VQS/RaBitQ/bin
+VQS/RaBitQ/data
+VQS/RaBitQ/indices
+VQS/RaBitQ/logs
+VQS/RaBitQ/results
+VQS/PQ/build
+VQS/PQ/bin
+VQS/SQ/build
+VQS/EXrabitq/bin
+VQS/EXrabitq/build
+VQS/EXrabitq/data
+VQS/EXrabitq/logs
+.DS_Store
