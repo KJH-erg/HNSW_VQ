@@ -32,25 +32,41 @@ HNSW_VQ/
 |   |    └── build.sh
 |   |    └── query.sh
 |   |
-|   ├── SQ/
-|   |    ├── src/
-│   |    |   └── create_index.cpp
-|   |    |   └── query.cpp
-|   |    └── build.sh
-|   |    └── query.sh
-|   |
-|   ├── EXrabitq/
+|   └── SQ/
+|        ├── src/
+│        |   └── create_index.cpp
+|        |   └── query.cpp
+|        └── build.sh
+|        └── query.sh
+|   
+├── RaBitQ/
+|   |    ├── bin/
 |   |    ├── data/
-|   |    ├── logs/
 |   |    ├── src/
-│   |    |   └── create_index.cpp
-|   |    |   └── query.cpp
+│   |    |   └── main logic files
 |   |    ├── python/
 |   |    |   └── utils
 |   |    |   └── ivf.py
-|   |    └── ivf.sh
-|   |    └── build.sh
+|   |    |   └── rabitq.py
+|   |    └── scripts/ 
+|   |        └── pre_process.sh
+|   |        └── index.sh
+|   |        └── search.sh
+|   |
+|   └── EXrabitq/
+|        ├── data/
+|        ├── logs/
+|        ├── src/
+│        |   └── create_index.cpp
+|        |   └── query.cpp
+|        ├── python/
+|        |   └── utils
+|        |   └── ivf.py
+|        └── ivf.sh
+|        └── build.sh
+|
 └── README.md
+
 </code>
 </pre>
 # Prepare Test Env
@@ -227,8 +243,41 @@ cd VQS/SQ
 
 Search statistics including `method`, `dataset`, `dim`, `peak_memory_mb`, `vec_size`, `ef_search`, `qps`, `n_cmp`, `recall@1`, `recall@10`, `recall@100`, and `recall@1000` — are recorded in `logs/search_log.csv`.
 
-
 # Run HNSW with RabitQ data 
+## How to compile files
+
+## Preliminary Clustering for RabitQ 
+It runs the Faiss clustering algorithm using Python code located in the `python` folder as a preliminary step for RabitQ.
+<pre>
+<code>
+cd VQS/RaBitQ
+./pre_process.sh
+</code>
+</pre>
+Generated clustering information are saved in `data` folder with each subfolder named after the dimensionality of the dataset (e.g., `128/`, `300/`, `960/`, etc.).  
+## Generate RabitQ codes
+<pre>
+<code>
+cd VQS/RaBitQ
+./index.sh
+</code>
+</pre>
+The Quantized codes is saved in the `indices/` folder, with each subfolder named after the dimensionality of the dataset (e.g., `128/`, `300/`, `960/`, etc.).  
+
+## How to run RabitQ with HNSW
+<pre>
+<code>
+cd VQS/RaBitQ
+./search.sh
+</code>
+</pre>
+### Configuration
+- `ef_search= 10~200` with step 10
+- `threads = 40`
+
+Search statistics including `method`, `dataset`, `dim`, `peak_memory_mb`, `vec_size`, `ef_search`, `qps`, `n_cmp`, `recall@1`, `recall@10`, `recall@100`, and `recall@1000` — are recorded in `logs/search_log.csv`.
+
+# Run HNSW with Extended RabitQ data 
 ## How to compile files
 <pre>
 <code>
@@ -254,7 +303,8 @@ cd VQS/EXrabitq
 ./build.sh
 </code>
 </pre>
-## Configuration
+
+### Configuration
 - `ef_search= 10~200` with step 10
 - `threads = 40`
 

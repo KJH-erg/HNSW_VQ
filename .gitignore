@@ -14,4 +14,12 @@ VQS/EXrabitq/bin
 VQS/EXrabitq/build
 VQS/EXrabitq/data
 VQS/EXrabitq/logs
+VQS/RaBitQ/indices
+VQS/RaBitQ/data
+VQS/RaBitQ/bin
+VQS/RaBitQ/script/logs
+VQS/OPQ/build/
+VQS/OPQ/bin/
+VQS/OPQ/
+logs/
 .DS_Store
